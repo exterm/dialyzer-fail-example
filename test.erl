@@ -5,7 +5,6 @@
 main() ->
     ok = foo(bar()).
 
--spec foo(1|2) -> ok.
 foo(1) ->
     ok.
 

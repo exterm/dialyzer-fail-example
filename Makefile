@@ -10,4 +10,4 @@ dialyze: compile PLT
 	dialyzer --no_native --plt PLT -Wunmatched_returns -Werror_handling ./
 
 clean:
-	rm -f *.beam
+	rm -f *.beam PLT
