@@ -9,6 +9,7 @@ foo(0) ->
     ok;
 foo(1) ->
     also_ok;
+% should trigger a dialyzer warning as this case can not occur
 foo(2) ->
     would_be_ok_but_can_not_happen.
 
